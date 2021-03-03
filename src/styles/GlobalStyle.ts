@@ -47,7 +47,7 @@ export default createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font: 400 1.6rem "Inter", sans-serif ;
+    font: 400 1.6rem "Roboto", sans-serif ;
   }
 
   button{
