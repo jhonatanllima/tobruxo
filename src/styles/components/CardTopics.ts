@@ -7,6 +7,13 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1024px){
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    justify-content: flex-start;
+  }
 `;
 
 export const Card = styled.div`

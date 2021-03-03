@@ -19,4 +19,8 @@ export const Content = styled.div`
 
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1024px){
+    padding: 0 1rem;
+  }
 `;
