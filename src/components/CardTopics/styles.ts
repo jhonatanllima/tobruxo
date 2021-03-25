@@ -32,8 +32,8 @@ export const Card = styled.div`
   background: var(--background-card);
 
   .icon{
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 
     color: var(--blue);
   }

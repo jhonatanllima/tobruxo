@@ -3,33 +3,30 @@ import { FaRegLightbulb } from 'react-icons/fa';
 import { RiAdvertisementFill } from 'react-icons/ri';
 import { IoDocumentTextOutline } from 'react-icons/io5'
 
-import { 
-  Card,
-  Container
-} from '../styles/components/CardTopics';
+import * as S from './styles'
 
 export function CardTopics() {
   return(
-    <Container>
-      <Card>
+    <S.Container>
+      <S.Card>
         <RiAdvertisementFill className="icon"/>
         <span>Advertising</span>
-      </Card>
+      </S.Card>
 
-      <Card>
+      <S.Card>
         <IoDocumentTextOutline  className="icon"/>
-        <span>Advertising</span>
-      </Card>
+        <span>Case Studies</span>
+      </S.Card>
 
-      <Card>
+      <S.Card>
         <FaRegLightbulb  className="icon"/>
-        <span>Advertising</span>
-      </Card>
+        <span>Innovation</span>
+      </S.Card>
 
-      <Card>
+      <S.Card>
         <BsListCheck  className="icon"/>
-        <span>Advertising</span>
-      </Card>
-    </Container>
+        <span>Management</span>
+      </S.Card>
+    </S.Container>
   )  
 }

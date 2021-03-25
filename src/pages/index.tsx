@@ -1,24 +1,23 @@
 
 import { 
   Header,
+  Branding,
   CardTopics 
 } from '../components/';
 
-import {
-  Content, 
-  Container 
-} from '../styles/pages/Home';
+import * as S from '../styles/pages/index';
 
 export default function Home() {
   return (
-    <Container>
+    <S.Container>
       <Header />
 
-      <Content>
+      <S.Content>
         <CardTopics />
-      </Content>
+        <Branding />
+      </S.Content>
 
       <footer></footer>
-    </Container>
+    </S.Container>
   )
 }
