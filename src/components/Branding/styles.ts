@@ -2,19 +2,15 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  min-height: 80rem;
+  min-height: 76rem;
 
   gap: 1.5rem;
   display: grid;
   grid-template-areas: "head    right"
-                       "section right"
-                       "section right"
-                       "section right"
                        "section right";
 
-
   grid-template-rows: 2fr;
-  grid-template-columns:  1fr 0.33fr;
+  grid-template-columns:  1fr 0.31fr;
 
   header{
     grid-area: head;

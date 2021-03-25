@@ -11,7 +11,6 @@ export function Branding() {
 
       <section />
 
-
       <div >
         <FaRegHandshake size={70} color={'#9F7AEA'} />
         <h1>Best Networking Workshops</h1> 
