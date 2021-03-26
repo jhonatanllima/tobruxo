@@ -41,7 +41,8 @@ export const Container = styled.div`
       background: var(--border-grey);
 
       :hover{
-        filter: brightness(0.9);
+        font-weight: 500;
+        background: var(--title);
       }
     }
 `;

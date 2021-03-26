@@ -50,6 +50,7 @@ export const Wrapper = styled.div`
          padding-left: 2rem;
 
          a{
+           transition: .2s;
            font-size: 1.6rem;
            font-weight: bold;
 

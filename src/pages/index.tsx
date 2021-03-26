@@ -1,6 +1,7 @@
 
 import { 
   Header,
+  Adverts,
   Branding,
   CardTopics,
   SectionTitle
@@ -17,6 +18,7 @@ export default function Home() {
         <CardTopics />
         <Branding />
         <SectionTitle />
+        <Adverts />
       </S.Content>
 
       <footer></footer>
