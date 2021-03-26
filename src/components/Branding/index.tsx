@@ -21,7 +21,7 @@ export function Branding() {
 
             <footer>
               <span>Jane Smith</span>
-              <p>may 15, 2021  <AiOutlineClockCircle  style={{marginBottom: -2, color: '#718096'}}/> 2 min</p>
+              <p>may 15, 2021  <AiOutlineClockCircle  style={{marginBottom: -2, color: '#4953b8'}}/> 2 min</p>
             </footer>
           </main>
         </section>
