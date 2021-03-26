@@ -2,7 +2,8 @@
 import { 
   Header,
   Branding,
-  CardTopics 
+  CardTopics,
+  SectionTitle
 } from '../components/';
 
 import * as S from '../styles/pages/index';
@@ -15,6 +16,7 @@ export default function Home() {
       <S.Content>
         <CardTopics />
         <Branding />
+        <SectionTitle />
       </S.Content>
 
       <footer></footer>

@@ -166,7 +166,7 @@ export const Container = styled.div`
     }
 
     button{
-      left: 4rem;
+      left: 13%;
       bottom: 3rem;
       position: absolute;
 
