@@ -21,7 +21,7 @@ export function Branding() {
 
             <footer>
               <span>Jane Smith</span>
-              <p>may 15, 2021  <AiOutlineClockCircle  style={{marginBottom: -2, color: '#4953b8'}}/> 2 min</p>
+              <p>may 15, 2021  <AiOutlineClockCircle  style={{marginBottom: -2, color: '#718096'}}/> 2 min</p>
             </footer>
           </main>
         </section>
@@ -74,7 +74,7 @@ export function Branding() {
 
 
       <div >
-        <FaRegHandshake size={70} color={'#9F7AEA'} />
+        <FaRegHandshake size={70} color={'#4953b8'} />
         <h1>Best Networking Workshops</h1> 
         <p>In this workshop, learn when and how to network with modern best practices.</p>
         <ul>
