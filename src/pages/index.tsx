@@ -19,6 +19,8 @@ export default function Home() {
         <Branding />
         <SectionTitle />
         <Adverts />
+        <SectionTitle />
+        <Adverts />
       </S.Content>
 
       <footer></footer>

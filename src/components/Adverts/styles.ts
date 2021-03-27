@@ -11,13 +11,16 @@ export const Container = styled.div`
 
   header{
     width: 100%;
-    min-height: 62rem;
+    min-height: 61rem;
     padding-bottom: 1.6rem;
 
     display: flex;
 
     article{
-      width: 33%;
+      position: relative;
+
+      width: 32.5%;
+      padding: 0.8rem;
       min-height: 100%;
       border-radius: 18px;
 
@@ -40,19 +43,103 @@ export const Container = styled.div`
 
       :nth-child(3){
         margin-left: 0.8rem;
+      }
+
+      img{
+        width: 100%;
+        height: 23rem;
+        border-radius: 8px;
+
+        object-fit: cover;
+      }
+
+      main {
+        padding: 2rem;
+
+        h3{
+          width: 10rem;
+          height: 3rem;
+          margin: 1.3rem 0;
+          border-radius: 12px;
+          padding: 0.6rem 1.6rem ;
+
+          font-size: 1.3rem;
+          background: var(--blue);
+        }
+
+        h2{
+          font-size: 2.2rem;
+          line-height: 1.2;
+        }
+
+        p{
+          margin-top: 1.8rem;
+          padding-right: 4rem;
+
+          font-size: 1.5rem;
+          line-height: 1.4;
+          font-weight: 300;
+          
+
+          overflow: hidden; 
+          display: -webkit-box;
+          -webkit-line-clamp: 4; 
+          text-overflow: ellipsis; 
+          -webkit-box-orient: vertical; 
+        }   
+      }
+
+      aside{
+        left: 1.8rem;
+        bottom: 3.5rem;
+        position: absolute;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        img{
+          width: 5.5rem;
+          height: 5.5rem;
+          border-radius: 50%;
+          margin-left: 0.6rem;
+
+          background: var(--border-grey);
+        }
+
+        div{
+          margin-left: 2rem;
+
+          span{
+            font-weight: 500;
+          }
+
+          p{
+            margin-top: 0.6rem;
+
+            font-weight: lighter;
+          }
+        }
       }
     }
   }
 
   footer{
     width: 100%;
-    min-height: 16rem;
+    min-height: 15rem;
 
     display: flex;
+
+    
     section{
       width: 33%;
       min-height: 100%;
+      padding: 1.5rem 2rem;
       border-radius: 18px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       transition: .2s;
       background: var(--background-card);
@@ -73,6 +160,38 @@ export const Container = styled.div`
 
       :nth-child(3){
         margin-left: 0.8rem;
+      }
+
+      h3{
+          width: 10rem;
+          height: 3rem;
+          border-radius: 12px;
+          padding: 0.6rem 1.6rem ;
+
+          font-size: 1.3rem;
+          background: var(--blue);
+        }
+
+      h2{
+          margin-top: 0.5rem;
+          line-height: 1.2;
+          font-size: 1.8rem;
+      }
+
+      div{
+        width: 88%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+          font-weight: 500;
+        }
+
+        p {
+          font-weight: lighter;
+        }
       }
     }
   }
