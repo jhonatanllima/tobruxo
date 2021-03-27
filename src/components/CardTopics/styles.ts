@@ -52,8 +52,9 @@ export const Card = styled.div`
   }
 
   :hover{
+    /* transition: 0.2s !important; */
     cursor: pointer;
-    transform: translateY(-0.25rem);
+    /* transform: translateY(-0.25rem); */
     box-shadow: rgba(255, 255, 255, 0.08) 1px 1px 5px 0px;
 
     .icon{
