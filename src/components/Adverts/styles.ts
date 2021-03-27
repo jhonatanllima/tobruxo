@@ -17,12 +17,14 @@ export const Container = styled.div`
     display: flex;
 
     article{
-      position: relative;
-
       width: 32.5%;
       padding: 0.8rem;
       min-height: 100%;
       border-radius: 18px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       transition: .2s;
       background: var(--background-card);
@@ -59,7 +61,7 @@ export const Container = styled.div`
         h3{
           width: 10rem;
           height: 3rem;
-          margin: 1.3rem 0;
+          margin: 0 0 1.3rem 0;
           border-radius: 12px;
           padding: 0.6rem 1.6rem ;
 
@@ -90,13 +92,10 @@ export const Container = styled.div`
       }
 
       aside{
-        left: 1.8rem;
-        bottom: 3.5rem;
-        position: absolute;
+        margin: 1.5rem 1.8rem;
 
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
         
         img{
           width: 5.5rem;
