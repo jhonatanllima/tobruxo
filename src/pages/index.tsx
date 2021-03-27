@@ -16,7 +16,12 @@ export default function Home() {
       <SEO title="TO BRUXO" description="Esse é site do tobruxo"/>
       <Header />
 
-      <S.Content  className="animate__animated animate__fadeInUp">
+      <S.Content  
+        className="
+          animate__animated 
+          animate__fadeInUp
+          "
+      >
         <CardTopics />
         <Branding />
         <SectionTitle />
