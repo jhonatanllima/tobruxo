@@ -1,5 +1,6 @@
 
-import { 
+import {
+  SEO,
   Header,
   Adverts,
   Branding,
@@ -12,9 +13,10 @@ import * as S from '../styles/pages/index';
 export default function Home() {
   return (
     <S.Container>
+      <SEO title="TO BRUXO" description="Esse é site do tobruxo"/>
       <Header />
 
-      <S.Content>
+      <S.Content  className="animate__animated animate__fadeInUp">
         <CardTopics />
         <Branding />
         <SectionTitle />
