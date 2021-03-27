@@ -25,6 +25,10 @@ export default createGlobalStyle`
     --border-grey: #718096;
   }
 
+  :root {
+    --animate-delay: 0.8s;
+  }
+
   body{
     color: var(--text);
     background: var(--background);
