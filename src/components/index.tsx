@@ -1,4 +1,5 @@
 import { SEO } from './SEO';
+import { Footer } from './Footer';
 import { Header } from './Header/';
 import { Adverts } from './Adverts';
 import { Branding } from './Branding';
@@ -9,6 +10,7 @@ import { SectionTitle } from './SectionTitle';
 
 export {
   SEO,
+  Footer,
   Header,
   Adverts,
   Branding,

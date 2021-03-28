@@ -1,6 +1,7 @@
 
 import {
   SEO,
+  Footer,
   Header,
   Adverts,
   Branding,
@@ -37,7 +38,7 @@ export default function Home() {
         
       </S.Content>
 
-      <footer></footer>
+      <Footer />
     </S.Container>
   )
 }
