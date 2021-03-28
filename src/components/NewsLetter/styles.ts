@@ -85,10 +85,10 @@ export const Container = styled.div`
       width: 11rem;
       height: auto;
       margin-top: 1rem;
-      margin-left: -4.4rem;
+      margin-left: -4.5rem;
 
       color: var(--title);
-      transform: rotate(118deg);
+      transform: rotate(119deg);
     }
   }
 `;
