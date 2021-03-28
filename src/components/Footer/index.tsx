@@ -4,7 +4,7 @@ import * as S from './styles'
 
 export function Footer() {
   return (
-    <S.Container >
+    <S.Container className="animate__animated animate__fadeIn" >
       <S.Wrapper>
         <div>
           <img src="images/tobruxo.png" alt="TO BRUXO"/>
