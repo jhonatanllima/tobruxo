@@ -5,6 +5,7 @@ import {
   Adverts,
   Branding,
   CardTopics,
+  CaseStudies,
   SectionTitle
 } from '../components/';
 
@@ -19,15 +20,18 @@ export default function Home() {
       <S.Content  
         className="
           animate__animated 
-          animate__fadeInUp
-          "
+          animate__fadeInUp"
       >
         <CardTopics />
         <Branding />
-        <SectionTitle />
+        <SectionTitle titleDescription="Advertising"/>
         <Adverts />
-        <SectionTitle />
+        <SectionTitle titleDescription="Case Studies"/>
+        <CaseStudies />
+        <SectionTitle titleDescription="Innovation"/>
         <Adverts />
+        <SectionTitle titleDescription="Management"/>
+        <CaseStudies />
       </S.Content>
 
       <footer></footer>

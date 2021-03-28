@@ -26,7 +26,7 @@ export default createGlobalStyle`
   }
 
   :root {
-    --animate-delay: 0.8s;
+    --animate-delay: 0.6s;
   }
 
   body{

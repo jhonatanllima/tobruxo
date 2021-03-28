@@ -3,6 +3,7 @@ import { Header } from './Header/';
 import { Adverts } from './Adverts'
 import { Branding } from './Branding'
 import { CardTopics } from './CardTopics';
+import { CaseStudies } from './CaseStudies'
 import { SectionTitle } from './SectionTitle'
 
 export {
@@ -11,5 +12,6 @@ export {
   Adverts,
   Branding,
   CardTopics,
+  CaseStudies,
   SectionTitle
 }
