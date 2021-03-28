@@ -4,6 +4,7 @@ import {
   Header,
   Adverts,
   Branding,
+  Newsletter,
   CardTopics,
   CaseStudies,
   SectionTitle
@@ -32,6 +33,8 @@ export default function Home() {
         <Adverts />
         <SectionTitle titleDescription="Management"/>
         <CaseStudies />
+        <Newsletter />
+        
       </S.Content>
 
       <footer></footer>
