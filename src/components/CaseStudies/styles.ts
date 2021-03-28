@@ -177,6 +177,7 @@ export const Container = styled.div`
           }
 
           p{
+            margin-top: 0.5rem;
             font-weight: lighter;
           }
         }
