@@ -2,7 +2,7 @@ import * as S from './styles'
 
 export function Header() {
   return (
-    <S.Container>
+    <S.Container className="animate__animated animate__fadeIn ">
       <S.Wrapper>
         <div>
           <img src="images/tobruxo.png" alt="To bruxo"/>
