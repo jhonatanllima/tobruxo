@@ -121,5 +121,66 @@ export const Container = styled.div`
         }
       }
     }
+
+    .Center{
+      width: 33%;
+      padding: 0.05rem 0.8rem;
+      min-height: 100%;
+      border-radius: 18px;
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+
+
+      div{
+        width: 100%;
+        height: 31.5%;
+        padding: 0.8rem;
+        border-radius: 18px;
+
+        display: flex;
+        align-items: center;
+
+        transition: .2s;
+        background: var(--background-card);
+
+        :hover{
+          cursor: pointer;
+          transform: translateY(-0.35rem);
+        }
+
+        img{
+          width: 40%;
+          height: 100%;
+          border-radius: 8px;
+
+          object-fit: cover;
+        }
+        
+        aside{
+          padding-left: 1rem;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          h3{
+            margin: -1rem 0 2rem 0;
+
+            font-size: 1.6rem;
+          }
+
+          strong{
+            font-weight: 500;
+          }
+
+          p{
+            font-weight: lighter;
+          }
+        }
+      }
+    }
   }
 `;

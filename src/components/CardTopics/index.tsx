@@ -1,7 +1,7 @@
-import { BsListCheck } from 'react-icons/bs';
+import { FaListUl } from 'react-icons/fa';
+import { FaRegFileAlt } from 'react-icons/fa'
 import { FaRegLightbulb } from 'react-icons/fa';
 import { RiAdvertisementFill } from 'react-icons/ri';
-import { IoDocumentTextOutline } from 'react-icons/io5'
 
 import { SEO } from '../index'
 
@@ -18,7 +18,7 @@ export function CardTopics() {
       </S.Card>
 
       <S.Card className="animate__animated animate__bounceIn animate__delay-2s">
-        <IoDocumentTextOutline  className="icon"/>
+        <FaRegFileAlt  className="icon"/>
         <span>Case Studies</span>
       </S.Card>
 
@@ -28,7 +28,7 @@ export function CardTopics() {
       </S.Card>
 
       <S.Card className="animate__animated animate__bounceIn animate__delay-4s">
-        <BsListCheck  className="icon"/>
+        <FaListUl  className="icon"/>
         <span>Management</span>
       </S.Card>
     </S.Container>
