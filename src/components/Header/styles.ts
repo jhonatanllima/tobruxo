@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 11.5vh;
+  height: 8.2rem;
 
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 
   div{
-    width: 15rem;
+    width: 7rem;
     height: auto;
 
     img{
@@ -47,8 +47,7 @@ export const Wrapper = styled.div`
       
        li{
          list-style: none;
-         padding-left: 2rem;
-
+       
          a{
            transition: .2s;
            font-size: 1.6rem;
@@ -58,7 +57,37 @@ export const Wrapper = styled.div`
              color: var(--blue);
            }
          }
+
+         + li{
+          padding-left: 2rem;
+         }
        }
+    }
+  }
+
+  form {
+    width: 32.8rem;
+    height: 5.1rem;
+    padding: 0 3rem;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--background-input);
+
+
+    input{
+      height: 100%;
+      border: none;
+      padding-left: 2rem;
+   
+
+      flex: 1;
+
+      outline: none;
+      background: var(--background-input);
     }
   }
 `;

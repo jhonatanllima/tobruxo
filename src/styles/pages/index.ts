@@ -15,13 +15,13 @@ export const Content = styled.div`
   height: auto;
   padding: 0 3rem;
   min-height: 54vh;
-  max-width: 1140px;
+  max-width: 1100px;
 
 
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+
 
   @media (max-width: 1024px){
     padding: 0 1rem;

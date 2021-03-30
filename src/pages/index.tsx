@@ -3,11 +3,7 @@ import {
   SEO,
   Footer,
   Header,
-  Adverts,
-  Branding,
-  Newsletter,
   CardTopics,
-  CaseStudies,
   SectionTitle
 } from '../components/';
 
@@ -24,17 +20,12 @@ export default function Home() {
           animate__animated 
           animate__fadeInUp"
       >
-        <CardTopics />
-        <Branding />
-        <SectionTitle titleDescription="Advertising"/>
-        <Adverts />
-        <SectionTitle titleDescription="Case Studies"/>
-        <CaseStudies />
-        <SectionTitle titleDescription="Innovation"/>
-        <Adverts />
-        <SectionTitle titleDescription="Management"/>
-        <CaseStudies />
-        <Newsletter />
+
+        <SectionTitle titleDescription="Em destaque"/>
+     
+        <SectionTitle titleDescription="Animes"/>
+
+        <SectionTitle titleDescription="Mangás"/>
         
       </S.Content>
 

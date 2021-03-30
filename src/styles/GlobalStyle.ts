@@ -10,8 +10,9 @@ export default createGlobalStyle`
 
   :root  {
     --white: #fff;
-    --background: #1A202C;
-    --background-card: #2D3748;
+    --background: #0B1623;
+    --background-input: #E5E6E6;
+    --background-card: #152232;
     --gray-line: #dcdde0;
     --text: #E2E8F0;
     --text-highlight: #9F7AEA;

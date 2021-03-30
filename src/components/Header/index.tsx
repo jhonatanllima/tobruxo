@@ -1,3 +1,5 @@
+import { BiSearch } from 'react-icons/bi';
+
 import * as S from './styles'
 
 export function Header() {
@@ -5,7 +7,7 @@ export function Header() {
     <S.Container className="animate__animated animate__fadeIn ">
       <S.Wrapper>
         <div>
-          <img src="images/tobruxo.png" alt="To bruxo"/>
+          <img src="images/tb.svg" alt="To bruxo logo cabeçalho"/>
         </div>
 
         <nav>
@@ -16,6 +18,11 @@ export function Header() {
             <li><a href="#">Anuncie</a></li>
           </ul>
         </nav>
+
+        <form >
+          <BiSearch size={25} color={'#5D5D5C'}/>
+          <input type="text" placeholder="Pesquisar..." />
+        </form>
       </S.Wrapper>
     </S.Container>
   )

@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
 
-  max-width: 1090px;
+  max-width: 1100px;
 
   gap: 3rem;
   display: grid;

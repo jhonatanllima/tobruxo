@@ -16,7 +16,6 @@ export function Branding() {
 
           <main>
             <h3>Advertising</h3>
-
             <h2>Markdown Language Sample Blog</h2>
 
             <footer>
@@ -31,7 +30,6 @@ export function Branding() {
 
           <main>
             <h3>Advertising</h3>
-
             <h2>Markdown Language Sample Blog</h2>
 
             <footer>
@@ -46,7 +44,6 @@ export function Branding() {
 
           <main>
             <h3>Advertising</h3>
-
             <h2>Markdown Language Sample Blog</h2>
 
             <footer>
@@ -61,7 +58,6 @@ export function Branding() {
 
           <main>
             <h3>Advertising</h3>
-
             <h2>Markdown Language Sample Blog</h2>
 
             <footer>
@@ -71,7 +67,6 @@ export function Branding() {
           </main>
         </section>
       </aside>
-
 
       <div >
         <FaRegHandshake size={70} color={'#4953b8'} />
