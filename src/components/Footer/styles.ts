@@ -45,7 +45,7 @@ export const Wrapper = styled.div`
     }
 
     a{
-      margin: 1rem 0 0.5rem 1rem;
+      margin: 1rem 0 0.5rem 0;
 
       transition: .2s;
       font-size: 1.7rem;
