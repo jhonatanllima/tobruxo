@@ -12,8 +12,9 @@ export function Header() {
 
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Nosso Time</a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Mangá</a></li>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">Contato</a></li>
             <li><a href="#">Anuncie</a></li>
           </ul>
