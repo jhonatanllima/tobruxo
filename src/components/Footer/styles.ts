@@ -15,20 +15,18 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
+  padding: 5rem 0;
 
   max-width: 1100px;
 
   gap: 3rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
-
+  grid-template-columns: repeat(5, 1fr);
 
   div{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
     Img{
       width: 15rem;

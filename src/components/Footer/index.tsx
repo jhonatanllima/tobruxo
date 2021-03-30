@@ -8,26 +8,30 @@ export function Footer() {
       <S.Wrapper>
         <div>
           <img src="images/tobruxo.png" alt="TO BRUXO"/>
-          <span>© 2021, All Rights Reserved.</span>
-          <strong>Powered By</strong>
+          <span>© 2021, Todos os <br /> Direitos Reservados.</span>
+          {/* <strong>Powered By</strong> */}
         </div>
         <div>
-          <strong>Quick Links</strong>
-          <Link href="#">Advertise with us</Link>
-          <Link href="#">About Us</Link>
-          <Link href="#">Contact US</Link>
+          <strong>Links Rápidos</strong>
+          <Link href="#">Mangás</Link>
+          <Link href="#">Animes</Link>
+          <Link href="#">Blog</Link>
+          <Link href="#">Contato</Link>
         </div>
         <div>
-          <strong>Legal Stuff</strong>
-          <Link href="#">Advertise with us</Link>
-          <Link href="#">About Us</Link>
-          <Link href="#">Contact US</Link>
+          <strong>Termos</strong>
+          <Link href="#">Termos de uso</Link>
+          <Link href="#">Cookies</Link>
         </div>
         <div>
-          <strong>Social Media</strong>
-          <Link href="#">Advertise with us</Link>
-          <Link href="#">About Us</Link>
-          <Link href="#">Contact US</Link>
+          <strong>Comunidade</strong>
+          <Link href="#">Discord</Link>
+        </div>
+        <div>
+          <strong>Redes sociais</strong>
+          <Link href="#">Instagram</Link>
+          <Link href="#">Facebook</Link>
+          <Link href="#">Youtube</Link>
         </div>
       </S.Wrapper>
     </S.Container>

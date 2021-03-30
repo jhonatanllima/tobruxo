@@ -14,7 +14,7 @@ export const Content = styled.div`
   width: 100%;
   height: auto;
   padding: 0 3rem;
-  min-height: 54vh;
+  min-height: 60.3vh;
   max-width: 1100px;
 
 
