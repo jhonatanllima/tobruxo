@@ -9,6 +9,8 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 
+  transition: .2s;
+
     div{
       position: relative;
 
@@ -51,6 +53,7 @@ export const Container = styled.div`
 
       :hover {
         cursor: pointer;
+        transform: translateY(-0.35rem);
 
         p{
           color: #37B6FE;
