@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   min-height: 33.3rem;
+  padding: 0 1rem;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 
     div{
       position: relative;
@@ -58,10 +59,6 @@ export const Container = styled.div`
         span {
           background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(55, 182, 254, 0.6) 100%);
         }
-      }
-
-      + div {
-        margin-left: 2.4rem;
       }
     }
 `;
