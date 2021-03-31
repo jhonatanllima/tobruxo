@@ -22,15 +22,6 @@ export function SectionTitle({titleDescription, recentPosts}: IsectionTitle) {
           <Link href='/'>Ver todos</Link>
         )}
       </div>
-
-      {/* {recentPosts ? (
-       <div >
-         <h2 style={{ marginRight: '6rem' }}>{recentPosts}</h2>
-       </div> 
-      ) : (
-        <Link href='/'>Ver todos</Link>
-      )} */}
-
     </S.Container>
   )
 }

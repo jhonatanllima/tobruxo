@@ -45,7 +45,6 @@ export const Container = styled.div`
       margin-left: 3.5rem;
     }
 
-
     a{
       width: 9rem;
       height: 3rem;
