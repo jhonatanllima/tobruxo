@@ -12,7 +12,7 @@ export const Container = styled.div`
     div{
       position: relative;
 
-      width: 18.5rem;
+      width: 100%;
       height: 33.3rem;
 
       display: flex;
