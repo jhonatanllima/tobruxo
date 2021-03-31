@@ -7,26 +7,44 @@ export const Container = styled.div`
   height: auto;
   margin: 6.4rem 0 3.2rem 0;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 5.3rem;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
 
-  div{
-    span{
+  div {
+
+    + div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+          margin-left: 5%;
+        }
+
+        a{
+          width: 95%;
+          height: auto;
+          
+          display:flex;
+          align-items: center;
+          justify-content: flex-end;
+        }
+      }
+
+   span{
       left: 0;
       position: absolute;
 
       width: 5.5px;
       height: 100%;
-      /* border-radius: 4px; */
-
       background: var(--border-grey);
     }
 
     h2{
       margin-left: 3.5rem;
     }
-  }
+
 
     a{
       width: 9rem;
@@ -48,4 +66,5 @@ export const Container = styled.div`
         text-decoration: underline;
       }
     }
+  }
 `;
