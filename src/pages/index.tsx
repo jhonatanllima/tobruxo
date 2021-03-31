@@ -3,6 +3,7 @@ import {
   SEO,
   Footer,
   Header,
+  Highlights,
   SectionTitle,
   CardPublication
 } from '../components/';
@@ -16,8 +17,8 @@ export default function Home() {
       <Header />
 
       <S.Content className="animate__animated animate__fadeInUp">
-        <SectionTitle titleDescription="Em destaque"/>
-        <CardPublication />
+        <SectionTitle titleDescription="Em destaque" recentPosts="Posts recentes"/>
+        <Highlights />
         <SectionTitle titleDescription="Animes"/>
         <CardPublication />
         <SectionTitle titleDescription="Mangás"/>

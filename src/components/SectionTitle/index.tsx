@@ -4,16 +4,25 @@ import * as S from './styles'
 
 interface IsectionTitle {
   titleDescription: string;
+  recentPosts?: string;
 }
 
-export function SectionTitle({titleDescription}: IsectionTitle) {
+export function SectionTitle({titleDescription, recentPosts}: IsectionTitle) {
   return (
     <S.Container>
       <div>
         <span />
         <h2>{titleDescription}</h2>
       </div>
-      <Link href='/'>Ver todos</Link>
+
+      {recentPosts ? (
+       <div>
+         <h2 style={{ marginRight: '6rem' }}>{recentPosts}</h2>
+       </div> 
+      ) : (
+        <Link href='/'>Ver todos</Link>
+      )}
+
     </S.Container>
   )
 }
