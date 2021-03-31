@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 100%;
   height: auto;
-  padding: 0 3rem;
+  padding: 0 2.5rem;
   min-height: 60.3vh;
   max-width: 1100px;
 

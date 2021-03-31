@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   width: 100%;
   height: auto;
-  margin: 7rem 0 2rem 0;
+  margin: 6.4rem 0 3.2rem 0;
 
   display: flex;
   align-items: center;
@@ -16,9 +16,9 @@ export const Container = styled.div`
       left: 0;
       position: absolute;
 
-      width: 4px;
+      width: 5.5px;
       height: 100%;
-      border-radius: 4px;
+      /* border-radius: 4px; */
 
       background: var(--border-grey);
     }

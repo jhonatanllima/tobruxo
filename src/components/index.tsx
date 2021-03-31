@@ -7,6 +7,7 @@ import { Newsletter } from './NewsLetter';
 import { CardTopics } from './CardTopics';
 import { CaseStudies } from './CaseStudies';
 import { SectionTitle } from './SectionTitle';
+import { CardPublication } from './CardPublication'
 
 export {
   SEO,
@@ -17,5 +18,6 @@ export {
   Newsletter,
   CardTopics,
   CaseStudies,
-  SectionTitle
+  SectionTitle,
+  CardPublication
 }

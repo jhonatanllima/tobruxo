@@ -3,8 +3,8 @@ import {
   SEO,
   Footer,
   Header,
-  CardTopics,
-  SectionTitle
+  SectionTitle,
+  CardPublication
 } from '../components/';
 
 import * as S from '../styles/pages/index';
@@ -15,18 +15,13 @@ export default function Home() {
       <SEO title="TO BRUXO" description="Esse é site do tobruxo"/>
       <Header />
 
-      <S.Content  
-        className="
-          animate__animated 
-          animate__fadeInUp"
-      >
-
+      <S.Content className="animate__animated animate__fadeInUp">
         <SectionTitle titleDescription="Em destaque"/>
-     
+        <CardPublication />
         <SectionTitle titleDescription="Animes"/>
-
+        <CardPublication />
         <SectionTitle titleDescription="Mangás"/>
-        
+        <CardPublication />
       </S.Content>
 
       <Footer />
