@@ -28,21 +28,24 @@ export const Container = styled.div`
     }
   }
 
-  button{
+    a{
       width: 9rem;
       height: 3rem;
       border: none;
       border-radius: 12px;
 
-      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       outline: none;
       transition: .2s;
-      font-size: 1.2rem;
-      background: var(--border-grey);
+      font-size: 1.6rem;
+      color: rgba(55, 182, 254, 0.75);
 
       :hover{
         font-weight: 500;
-        background: var(--title);
+        text-decoration: underline;
       }
     }
 `;

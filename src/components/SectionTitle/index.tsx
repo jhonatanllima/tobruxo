@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import * as S from './styles'
 
 interface IsectionTitle {
@@ -11,7 +13,7 @@ export function SectionTitle({titleDescription}: IsectionTitle) {
         <span />
         <h2>{titleDescription}</h2>
       </div>
-      <button>View More</button>
+      <Link href='/'>Ver todos</Link>
     </S.Container>
   )
 }
