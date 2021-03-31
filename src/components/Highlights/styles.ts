@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Carousel = styled.div`
   width: 100%;
   min-height: 45.8rem;
+  border-radius: 16px;
 
   background: var(--background-card);
 `;
